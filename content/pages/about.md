@@ -1,15 +1,13 @@
 ---
-title: "About"
-seoTitle: "About"
-seoDescription: "About us"
-route: "/about"
-sourceUrl: "https://old.example-studio.test/about/"
-createdAt: "2024-01-01T00:00:00.000Z"
-updatedAt: "2024-01-01T00:00:00.000Z"
-publishedAt: ""
+title: About
+seoTitle: About 12:53
+seoDescription: About us
+route: /about
+sourceUrl: https://old.example-studio.test/about/
+createdAt: 2024-01-01T00:00:00.000Z
+updatedAt: 2024-01-01T00:00:00.000Z
 ---
-
-\*literal\* # chars \[x\] and \{% braces %\}
+literal # chars x and % braces %
 
 ```site:legacy-html
 <div>Preserved text <a href="/about/">kept link</a></div>
