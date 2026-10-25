@@ -1,14 +1,13 @@
 ---
-title: "Contact"
-seoTitle: "Contact | Harbor Studio"
-seoDescription: "Find us"
-route: "/contact"
-sourceUrl: "https://old.example-studio.test/contact/"
-createdAt: "2024-03-01T00:00:00.000Z"
-updatedAt: "2024-03-02T00:00:00.000Z"
-publishedAt: "2024-03-02T00:00:00.000Z"
+title: Contact
+seoTitle: Contact | Harbor Studio
+seoDescription: Find us
+route: /contact
+sourceUrl: https://old.example-studio.test/contact/
+createdAt: 2024-03-01T00:00:00.000Z
+updatedAt: 2024-03-02T00:00:00.000Z
+publishedAt: 2024-03-02T00:00:00.000Z
 ---
-
 ## Visit us
 
 Call [(555) 010-2030](tel:+15550102030) or email [hello@harbor.example](mailto:hello@harbor.example).
