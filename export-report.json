@@ -1,0 +1,132 @@
+{
+  "formatVersion": 2,
+  "pagesConfig": "written",
+  "checks": [
+    {
+      "name": "no editor in the output",
+      "passed": true
+    },
+    {
+      "name": "no old-format syntax in the output",
+      "passed": true
+    },
+    {
+      "name": "nothing from drafts, exclusions, or the pipeline in the output",
+      "passed": true
+    },
+    {
+      "name": "no secret-shaped values",
+      "passed": true
+    },
+    {
+      "name": "no made-up test data files, and any settings file is stamped",
+      "passed": true
+    }
+  ],
+  "counts": {
+    "pages": 7,
+    "posts": 2,
+    "instructors": 3,
+    "excludedPages": 0,
+    "excludedLines": 0,
+    "photoCopies": 8,
+    "assets": 9,
+    "unresolvedAssets": 0,
+    "redirectsWritten": 4,
+    "redirectsSkipped": 3,
+    "draftsSkipped": 2
+  },
+  "fidelity": {
+    "nodes": {
+      "heading": {
+        "converted": 4,
+        "legacy": 0
+      },
+      "paragraph": {
+        "converted": 20,
+        "legacy": 0
+      },
+      "link": {
+        "converted": 6,
+        "legacy": 0
+      },
+      "mediaBlock": {
+        "converted": 6,
+        "legacy": 0
+      },
+      "list": {
+        "converted": 2,
+        "legacy": 0
+      },
+      "listitem": {
+        "converted": 4,
+        "legacy": 0
+      },
+      "quote": {
+        "converted": 1,
+        "legacy": 0
+      },
+      "weirdwidget": {
+        "converted": 0,
+        "legacy": 1
+      }
+    },
+    "lostFormatting": {
+      "underline": 1
+    },
+    "text": {
+      "seen": 769,
+      "emitted": 769
+    },
+    "links": {
+      "seen": 7,
+      "kept": 6,
+      "lost": 0,
+      "unwrapped": 0
+    },
+    "images": {
+      "placed": 8,
+      "unresolved": 0
+    },
+    "sanitizer": {
+      "removedTags": 0,
+      "removedAttributes": 0
+    }
+  },
+  "skipped": {
+    "draftCount": 2,
+    "pages": []
+  },
+  "renamed": [],
+  "notes": [
+    "page /about/team: layout blocks not exported as content: cta",
+    "page /about/team: missing meta description",
+    "page /empty: missing meta description",
+    "page /photo_gallery_widget: missing meta description",
+    "post /posts/second-post: missing meta description"
+  ],
+  "redirects": {
+    "written": 4,
+    "skipped": [
+      {
+        "from": "/about",
+        "reason": "collides with a page or post"
+      },
+      {
+        "from": "/evil",
+        "reason": "target is not an in-site address"
+      },
+      {
+        "from": "/old-about/",
+        "reason": "duplicate source"
+      }
+    ]
+  },
+  "assets": {
+    "copied": 9,
+    "unresolved": [],
+    "skipped": [],
+    "totalBytes": 580
+  },
+  "sizeGuidance": "Content and assets total 0.0 MB. GitHub recommends repositories under 1 GB and rejects files over 100 MB."
+}

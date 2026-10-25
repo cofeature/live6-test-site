@@ -1,0 +1,35 @@
+{
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/blog/first-post",
+      "destination": "/posts/first-post/",
+      "permanent": true
+    },
+    {
+      "source": "/forms/waiver.pdf",
+      "destination": "/assets/83decc79ecc2-waiver.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/Old-About",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/old/team",
+      "destination": "/about/team/",
+      "permanent": true
+    }
+  ]
+}

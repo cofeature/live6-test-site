@@ -1,0 +1,144 @@
+{
+  "studio": {
+    "studio": {
+      "phone": "(555) 010-2030",
+      "email": "",
+      "address": "",
+      "hours": "Mon–Fri 7am–7pm\nSat 9am–1pm",
+      "bookingUrl": "https://booking.example/studio"
+    },
+    "candidates": [
+      {
+        "kind": "address",
+        "value": "12 Harbor Street, Portville, OR 97201",
+        "routes": [
+          "/contact"
+        ]
+      },
+      {
+        "kind": "email",
+        "value": "hello@harbor.example",
+        "routes": [
+          "/contact"
+        ]
+      },
+      {
+        "kind": "hours",
+        "value": "Mon–Fri 7am–7pm\nSat 9am–1pm",
+        "routes": [
+          "/contact"
+        ]
+      },
+      {
+        "kind": "phone",
+        "value": "(555) 010-2030",
+        "routes": [
+          "/about",
+          "/contact"
+        ]
+      }
+    ],
+    "fields": {
+      "phone": "written",
+      "email": "blank",
+      "address": "blank",
+      "hours": "written",
+      "bookingUrl": "written"
+    },
+    "siteName": {
+      "value": "Harbor Studio",
+      "source": "seo-title"
+    },
+    "contactRoutes": [
+      "/contact"
+    ]
+  },
+  "instructors": {
+    "pages": [
+      "/about/instructors"
+    ],
+    "records": [
+      {
+        "name": "Jane Rivera",
+        "slug": "jane-rivera",
+        "role": "Studio owner",
+        "photo": "assigned",
+        "page": "/about/instructors"
+      },
+      {
+        "name": "Sam Ortiz",
+        "slug": "sam-ortiz",
+        "role": "Instructor",
+        "photo": "none",
+        "page": "/about/instructors"
+      },
+      {
+        "name": "Pat Lee",
+        "slug": "pat-lee",
+        "role": "",
+        "photo": "none",
+        "page": "/about/instructors"
+      }
+    ],
+    "photosLeft": [
+      {
+        "page": "/about/instructors",
+        "name": "Pat Lee",
+        "count": 2
+      }
+    ],
+    "relatedPages": []
+  },
+  "cleanup": {
+    "shortPages": [
+      {
+        "route": "/",
+        "words": 13
+      },
+      {
+        "route": "/about",
+        "words": 14
+      },
+      {
+        "route": "/about/team",
+        "words": 2
+      },
+      {
+        "route": "/empty",
+        "words": 0
+      },
+      {
+        "route": "/photo_gallery_widget",
+        "words": 1
+      }
+    ],
+    "pluginRoutes": [
+      "/photo_gallery_widget"
+    ],
+    "embedLines": [
+      {
+        "route": "/contact",
+        "line": "Open embedded content"
+      }
+    ]
+  },
+  "mentions": [
+    {
+      "route": "/about",
+      "phone": 1,
+      "email": 0,
+      "address": 0
+    },
+    {
+      "route": "/contact",
+      "phone": 2,
+      "email": 0,
+      "address": 0
+    }
+  ],
+  "excluded": {
+    "pages": [],
+    "lines": []
+  },
+  "siteNameNote": "seo-title"
+}

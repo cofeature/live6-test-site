@@ -1,0 +1,13 @@
+siteName: "Harbor Studio"
+canonicalBase: "https://old.example-studio.test"
+nav:
+  - label: "About"
+    href: "/about/"
+  - label: "Book"
+    href: "https://booking.example/studio"
+  - label: "Blog"
+    href: "/posts/first-post/"
+
+footer:
+  - label: "Team"
+    href: "/about/team/"

@@ -1,0 +1,32 @@
+{
+  "name": "static-site",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A static website built from plain Markdown files.",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=20.9"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "node scripts/check-site.mjs . && NEXT_TELEMETRY_DISABLED=1 next build && node scripts/publish-photos.mjs out",
+    "check:site": "node scripts/check-site.mjs .",
+    "check:secrets": "node scripts/check-secrets.mjs .",
+    "check:independence": "node scripts/check-independence.mjs ."
+  },
+  "dependencies": {
+    "marked": "18.0.14",
+    "next": "16.4.3",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "sanitize-html": "2.18.1",
+    "yaml": "2.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "19.2.0",
+    "@types/react-dom": "19.2.0",
+    "@types/sanitize-html": "^2.16.2",
+    "typescript": "5.9.3"
+  }
+}

@@ -1,0 +1,170 @@
+# everbase-sites synthetic-fixture 5034744fc395409869e0790ac02a1a4608855e2f6a706ab9d1b2f08a6e1218d7
+media:
+  input: public/assets
+  output: /assets
+content:
+  - name: pages
+    label: "Pages"
+    type: collection
+    path: content/pages
+    format: yaml-frontmatter
+    fields:
+      - name: "title"
+        label: "Title"
+        type: string
+      - name: "seoTitle"
+        label: "Search title"
+        type: string
+      - name: "seoDescription"
+        label: "Search description"
+        type: text
+      - name: "route"
+        label: "Address"
+        type: string
+        hidden: true
+      - name: "sourceUrl"
+        label: "Original address"
+        type: string
+        hidden: true
+      - name: "createdAt"
+        label: "Created"
+        type: string
+        hidden: true
+      - name: "updatedAt"
+        label: "Updated"
+        type: string
+        hidden: true
+      - name: "publishedAt"
+        label: "Published"
+        type: string
+        hidden: true
+      - name: "body"
+        label: "Body"
+        type: rich-text
+  - name: posts
+    label: "Posts"
+    type: collection
+    path: content/posts
+    format: yaml-frontmatter
+    fields:
+      - name: "title"
+        label: "Title"
+        type: string
+      - name: "seoTitle"
+        label: "Search title"
+        type: string
+      - name: "seoDescription"
+        label: "Search description"
+        type: text
+      - name: "route"
+        label: "Address"
+        type: string
+        hidden: true
+      - name: "sourceUrl"
+        label: "Original address"
+        type: string
+        hidden: true
+      - name: "publishedAt"
+        label: "Published"
+        type: string
+        hidden: true
+      - name: "createdAt"
+        label: "Created"
+        type: string
+        hidden: true
+      - name: "updatedAt"
+        label: "Updated"
+        type: string
+        hidden: true
+      - name: "categories"
+        label: "Categories"
+        type: string
+        list: true
+      - name: "heroImage"
+        label: "Main photo"
+        type: image
+      - name: "body"
+        label: "Body"
+        type: rich-text
+  - name: instructors
+    label: "Instructors"
+    type: collection
+    path: content/instructors
+    format: yaml-frontmatter
+    fields:
+      - name: "name"
+        label: "Name"
+        type: string
+      - name: "role"
+        label: "Role"
+        type: string
+      - name: "credentials"
+        label: "Credentials"
+        type: string
+      - name: "photo"
+        label: "Photo"
+        type: image
+      - name: "photoAlt"
+        label: "Photo description"
+        type: string
+      - name: "order"
+        label: "Order"
+        type: number
+      - name: "body"
+        label: "Body"
+        type: rich-text
+  - name: studio
+    label: "Studio info"
+    type: file
+    path: content/studio.yaml
+    format: yaml
+    fields:
+      - name: "hours"
+        label: "Hours"
+        type: text
+      - name: "phone"
+        label: "Phone"
+        type: string
+      - name: "email"
+        label: "Email"
+        type: string
+      - name: "address"
+        label: "Address"
+        type: text
+      - name: "bookingUrl"
+        label: "Booking link"
+        type: string
+  - name: site
+    label: "Site settings"
+    type: file
+    path: content/site.yaml
+    format: yaml
+    fields:
+      - name: "siteName"
+        label: "Site name"
+        type: string
+      - name: "canonicalBase"
+        label: "Web address"
+        type: string
+      - name: "nav"
+        label: "Menu"
+        type: object
+        list: true
+        fields:
+          - name: "label"
+            label: "Label"
+            type: string
+          - name: "href"
+            label: "Link"
+            type: string
+      - name: "footer"
+        label: "Footer links"
+        type: object
+        list: true
+        fields:
+          - name: "label"
+            label: "Label"
+            type: string
+          - name: "href"
+            label: "Link"
+            type: string
