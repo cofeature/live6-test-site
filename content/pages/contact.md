@@ -1,7 +1,7 @@
 ---
 title: Contact
 seoTitle: Contact | Harbor Studio
-seoDescription: Find us
+seoDescription: Find us today
 route: /contact
 sourceUrl: https://old.example-studio.test/contact/
 createdAt: 2024-03-01T00:00:00.000Z
