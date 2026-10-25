@@ -168,4 +168,3 @@ content:
           - name: "href"
             label: "Link"
             type: string
-# live-check: edited settings file (test)
